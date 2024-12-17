@@ -1,0 +1,115 @@
+.tooltip-container,
+.tooltip-container-1,
+.tooltip-container-2,
+.tooltip-container-3
+{
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+  width: 230px;
+  background-color: white;
+  height: 50px;
+  box-shadow: outset 150px 10px 80px rgba(0, 0, 0, 0.20);
+  gap: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 272px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.tooltip-container-4,
+.tooltip-container-5,
+.tooltip-container-6,
+.tooltip-container-7
+{
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+  width: 230px;
+  background-color: white;
+  height: 50px;
+  box-shadow: outset 150px 10px 80px rgba(0, 0, 0, 0.20);
+  gap: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 570px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.tooltip-container-8,
+.tooltip-container-9,
+.tooltip-container-10,
+.tooltip-container-11
+{
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+  width: 230px;
+  background-color: white;
+  height: 50px;
+  box-shadow: outset 150px 10px 80px rgba(0, 0, 0, 0.20);
+  gap: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 850px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.video-info-grid:hover .tooltip-container,
+.video-info-grid:hover .tooltip-container-1,
+.video-info-grid:hover .tooltip-container-2,
+.video-info-grid:hover .tooltip-container-3,
+.video-info-grid:hover .tooltip-container-4,
+.video-info-grid:hover .tooltip-container-5,
+.video-info-grid:hover .tooltip-container-6,
+.video-info-grid:hover .tooltip-container-7,
+.video-info-grid:hover .tooltip-container-8,
+.video-info-grid:hover .tooltip-container-9,
+.video-info-grid:hover .tooltip-container-10,
+.video-info-grid:hover .tooltip-container-11
+{
+  opacity: 1;
+  transition: opacity 0.15s;
+  
+}
+
+.tooltip-container img,
+.tooltip-container-1 img,
+.tooltip-container-2 img,
+.tooltip-container-3 img,
+.tooltip-container-4 img,
+.tooltip-container-5 img, 
+.tooltip-container-6 img,
+.tooltip-container-7 img,
+.tooltip-container-8 img,
+.tooltip-container-9 img,
+.tooltip-container-10 img,
+.tooltip-container-11 img
+{
+  height: 36px;
+  border-radius: 50%;
+
+}
+
+
+
+.title{
+  display: block;
+}
+
+.user-info{
+  font-weight: 500;
+}
+
+.user-stats{
+  color: gray;
+}
+
